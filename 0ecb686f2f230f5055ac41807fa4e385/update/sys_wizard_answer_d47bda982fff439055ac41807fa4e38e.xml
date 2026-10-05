@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New VDI Lifecycle Management</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>VDI Lifecycle Management</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">dd21b6f78c5103100a22deb6dd2b4e61</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-04 05:05:23</sys_created_on>
+        <sys_id>d47bda982fff439055ac41807fa4e38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VDI Lifecycle Management</sys_name>
+        <sys_package display_value="VDI Lifecycle Management" source="x_2060602_vdi_li_0">0ecb686f2f230f5055ac41807fa4e385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VDI Lifecycle Management">0ecb686f2f230f5055ac41807fa4e385</sys_scope>
+        <sys_update_name>sys_wizard_answer_d47bda982fff439055ac41807fa4e38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-04 05:05:23</sys_updated_on>
+        <table/>
+        <target_url>x_2060602_vdi_li_0_vdi_lifecycle_management.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
