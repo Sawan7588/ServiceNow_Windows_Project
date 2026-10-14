@@ -1,3 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ea6b9a982fff439055ac41807fa4e317" extends="task" label="VDI Lifecycle Management" max_length="40" name="x_2060602_vdi_li_0_vdi_lifecycle_management" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ea6b9a982fff439055ac41807fa4e317" extends="task" label="VDI Lifecycle Management" max_length="40" name="x_2060602_vdi_li_0_vdi_lifecycle_management" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="standard" label="VDI Specs" max_length="40" name="u_vdi_specs" type="string">
+            <choice>
+                <element inactive_on_update="false" label="2vCPU/8GB" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="8vCPU/32GB" sequence="1" value="high-end"/>
+                <element inactive_on_update="false" label="4vCPU/16GB" sequence="2" value="mid-range"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Assignment group" max_length="32" name="u_assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="standard" label="Software Profile" max_length="40" name="u_software_profile" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="Analytics" sequence="2" value="analytics"/>
+                <element inactive_on_update="false" label="Developer Tools" sequence="1" value="developer tools"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="VP Approval" max_length="32" name="u_vp_approval" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="u_expiration_date" type="glide_date_time"/>
+        <element choice="3" default="new_standard" label="Request type" max_length="255" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New High-End" sequence="1" value="new_high-end"/>
+                <element inactive_on_update="false" label="Decommission" sequence="3" value="decommission"/>
+                <element inactive_on_update="false" label="New Standard" sequence="0" value="new_standard"/>
+                <element inactive_on_update="false" label="Upgrade" sequence="2" value="upgrade"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Financial Approval" max_length="32" name="u_financial_approval" reference="sys_user" type="reference"/>
+        <element label="New Hire" max_length="40" name="u_new_hire" type="boolean"/>
+        <element label="Requested for" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Cost Center" max_length="32" name="u_cost_center" reference="cmn_cost_center" type="reference"/>
+        <element attributes="encode_utf8=false" label="Configuration Item" max_length="32" name="u_configuration_item" reference="cmdb_ci_virtual_desktop" type="reference"/>
+    </element>
 </database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_vdi_specs" label="VDI Specs" language="en" table="x_2060602_vdi_li_0_vdi_lifecycle_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_vdi_specs</element>
+            <help/>
+            <hint/>
+            <label>VDI Specs</label>
+            <language>en</language>
+            <name>x_2060602_vdi_li_0_vdi_lifecycle_management</name>
+            <plural>VDI Specs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 10:10:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VDI Specs</sys_name>
+            <sys_package display_value="VDI Lifecycle Management" source="x_2060602_vdi_li_0">0ecb686f2f230f5055ac41807fa4e385</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="VDI Lifecycle Management">0ecb686f2f230f5055ac41807fa4e385</sys_scope>
+            <sys_update_name>sys_documentation_x_2060602_vdi_li_0_vdi_lifecycle_management_u_vdi_specs_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 10:10:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

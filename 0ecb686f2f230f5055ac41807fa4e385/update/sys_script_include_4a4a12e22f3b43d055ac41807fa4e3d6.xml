@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_2060602_vdi_li_0.VDIUserLookupUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>VDIUserLookupUtil</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var VDIUserLookupUtil = Class.create();
+VDIUserLookupUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+getExistingVDI: function() {
+    var userId = this.getParameter('sysparm_user_id');
+	var result = {
+		found: false,
+		sys_id: '',
+		name: '',
+		specs: {}
+	};
+	if (!userId) {
+		return JSON.stringify(result);
+	}
+
+	var vdiGr = new GlideRecord('cmdb_ci_virtual_desktop');
+	vdiGr.addQuery('assigned_to', userId);
+	vdiGr.addQuery('install_status', 1);
+	vdiGr.setLimit(1);
+	vdiGr.query();
+
+	if(vdiGr.next()){
+		result.found = true;
+		result.sys_id = vdiGr.getUniqueValue();
+		result.name = vdiGr.getValue('u_hostname') || '';
+		result.specs = {
+			cpu: vdiGr.getValue('u_cpu_core') || '',
+			ram: vdiGr.getValue('u_ram_gb') || '',
+			
+		};
+	}
+	return JSON.stringify(result);
+
+    },
+
+    type: 'VDIUserLookupUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-11 08:02:03</sys_created_on>
+        <sys_id>4a4a12e22f3b43d055ac41807fa4e3d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>VDIUserLookupUtil</sys_name>
+        <sys_package display_value="VDI Lifecycle Management" source="x_2060602_vdi_li_0">0ecb686f2f230f5055ac41807fa4e385</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="VDI Lifecycle Management">0ecb686f2f230f5055ac41807fa4e385</sys_scope>
+        <sys_update_name>sys_script_include_4a4a12e22f3b43d055ac41807fa4e3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-11 08:37:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

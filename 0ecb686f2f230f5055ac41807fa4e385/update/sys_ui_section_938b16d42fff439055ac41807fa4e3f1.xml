@@ -4,55 +4,55 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:51</sys_created_on>
-            <sys_id>db8bde982fff439055ac41807fa4e302</sys_id>
+            <sys_created_on>2026-10-06 08:33:40</sys_created_on>
+            <sys_id>0f4e11c12fbb879055ac41807fa4e344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:51</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>u_requested_for</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:52</sys_created_on>
-            <sys_id>e38bde982fff439055ac41807fa4e304</sys_id>
+            <sys_created_on>2026-10-06 08:33:40</sys_created_on>
+            <sys_id>8b4e11c12fbb879055ac41807fa4e345</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:52</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
+            <element>u_request_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:52</sys_created_on>
-            <sys_id>638bde982fff439055ac41807fa4e305</sys_id>
+            <sys_created_on>2026-10-06 08:33:40</sys_created_on>
+            <sys_id>0b4e11c12fbb879055ac41807fa4e346</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:52</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>u_new_hire</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:53</sys_created_on>
-            <sys_id>7f8bde982fff439055ac41807fa4e306</sys_id>
+            <sys_created_on>2026-10-06 08:33:41</sys_created_on>
+            <sys_id>874e11c12fbb879055ac41807fa4e347</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:53</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,111 +60,55 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:53</sys_created_on>
-            <sys_id>ff8bde982fff439055ac41807fa4e305</sys_id>
+            <sys_created_on>2026-10-06 08:33:41</sys_created_on>
+            <sys_id>174e11c12fbb879055ac41807fa4e348</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:53</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:41</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
+            <element>state</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:53</sys_created_on>
-            <sys_id>fb8bde982fff439055ac41807fa4e307</sys_id>
+            <sys_created_on>2026-10-06 08:33:41</sys_created_on>
+            <sys_id>934e11c12fbb879055ac41807fa4e349</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:53</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
+            <element>priority</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:54</sys_created_on>
-            <sys_id>489bde982fff439055ac41807fa4e308</sys_id>
+            <sys_created_on>2026-10-06 08:33:41</sys_created_on>
+            <sys_id>134e11c12fbb879055ac41807fa4e34a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:54</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
+            <element>u_assignment_group</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:54</sys_created_on>
-            <sys_id>c49bde982fff439055ac41807fa4e309</sys_id>
+            <sys_created_on>2026-10-06 08:33:41</sys_created_on>
+            <sys_id>9f4e11c12fbb879055ac41807fa4e34a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:54</sys_created_on>
-            <sys_id>449bde982fff439055ac41807fa4e30a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:54</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:54</sys_created_on>
-            <sys_id>c09bde982fff439055ac41807fa4e30b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:54</sys_created_on>
-            <sys_id>409bde982fff439055ac41807fa4e30c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-04 05:05:54</sys_created_on>
-            <sys_id>cc9bde982fff439055ac41807fa4e30c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="Default view">938b16d42fff439055ac41807fa4e3f1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-04 05:05:54</sys_updated_on>
+            <sys_updated_on>2026-10-06 08:33:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

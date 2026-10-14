@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3da755c52f7b879055ac41807fa4e345" sys_domain="global" table="x_2060602_vdi_li_0_vdi_lifecycle_management" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-06 08:04:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42a755c52f7b879055ac41807fa4e34c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2060602_vdi_li_0_vdi_lifecycle_management" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">3da755c52f7b879055ac41807fa4e345</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">21a755c52f7b879055ac41807fa4e342</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-06 08:04:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-06 08:04:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4aa755c52f7b879055ac41807fa4e34d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2060602_vdi_li_0_vdi_lifecycle_management" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">3da755c52f7b879055ac41807fa4e345</sys_ui_form>
+            <sys_ui_section caption="VDI Specifications &amp; Asset" display_value="VDI Specifications &amp; Asset" name="x_2060602_vdi_li_0_vdi_lifecycle_management" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">75a755c52f7b879055ac41807fa4e344</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-06 08:04:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2060602_vdi_li_0_vdi_lifecycle_management</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-06 08:04:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3da755c52f7b879055ac41807fa4e345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2060602_vdi_li_0_vdi_lifecycle_management</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="VDI Lifecycle Management" source="x_2060602_vdi_li_0">0ecb686f2f230f5055ac41807fa4e385</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="VDI Lifecycle Management">0ecb686f2f230f5055ac41807fa4e385</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3da755c52f7b879055ac41807fa4e345</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-06 08:04:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Self Service" name="ess">7410f2738c1103100a22deb6dd2b4e0c</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

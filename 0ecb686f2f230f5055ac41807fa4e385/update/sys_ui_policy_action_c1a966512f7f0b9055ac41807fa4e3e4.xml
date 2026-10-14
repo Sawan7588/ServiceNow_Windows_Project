@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_software_profile</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 08:41:20</sys_created_on>
+        <sys_id>c1a966512f7f0b9055ac41807fa4e3e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_software_profile</sys_name>
+        <sys_package display_value="VDI Lifecycle Management" source="x_2060602_vdi_li_0">0ecb686f2f230f5055ac41807fa4e385</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="VDI Lifecycle Management">0ecb686f2f230f5055ac41807fa4e385</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c1a966512f7f0b9055ac41807fa4e3e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 08:47:17</sys_updated_on>
+        <table>x_2060602_vdi_li_0_vdi_lifecycle_management</table>
+        <ui_policy display_value="If New Hire is Active only order - Standard VDI">30a966512f7f0b9055ac41807fa4e33e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1a966512f7f0b9055ac41807fa4e3e4"/>
+</record_update>
